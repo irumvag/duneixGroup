@@ -7,7 +7,7 @@ mixin AttendanceMixin {
     _attendanceCount++;
     print('Attendance marked. Total: $_attendanceCount');
   }
-  int getAttendance() {
+  int getAttendance() { //getter function
     return _attendanceCount;
   }
 }

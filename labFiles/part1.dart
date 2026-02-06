@@ -1,11 +1,11 @@
-// Q1: Welcome Message Function
+// Q1: WelcomeMessage Function
 void welcomeMessage() {
   print('Welcome to the School Management System!');
   print('Here you can manage students, teachers, and courses.');
 }
 
 // Q2: Create Student with Named Parameters
-void createStudent({required String name, required int age}) {
+void createStudent( {required String name, required int age} ) {
   print('Student Details:');
   print('Name: $name');
   print('Age: $age');
